@@ -15,10 +15,10 @@ $CARGO_HOME/bin/rustfmt --emit stdout
 	<string>document</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>@R</string>
+  <key>hideFromUser</key>
+  <true/>
 	<key>name</key>
-	<string>Format</string>
+	<string>Fmt on Save</string>
 	<key>outputCaret</key>
 	<string>interpolateByLine</string>
 	<key>outputFormat</key>
@@ -27,9 +27,11 @@ $CARGO_HOME/bin/rustfmt --emit stdout
 	<string>replaceDocument</string>
 	<key>scope</key>
 	<string>source.rust</string>
+	<key>semanticClass</key>
+	<string>callback.document.will-save.100</string>
 	<key>uuid</key>
-	<string>62C653C0-B18A-4B68-9598-32972B821814</string>
+	<string>83ef2c73-1a43-48de-9fb5-a52cb6ad4540</string>
 	<key>version</key>
-	<integer>3</integer>
+	<integer>1</integer>
 </dict>
 </plist>
