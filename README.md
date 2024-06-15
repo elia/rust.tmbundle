@@ -85,7 +85,13 @@ tmb update rust
   </tr>
 </table>
 
+- rustfmt auto run on save (see instructions below to disable)
 - Autocompletion when racer is available (see instructions below)
+
+## How to disable format on save
+
+ - Bundles menu > Edit Bundles > Rust > Other Actions > Fmt on save > Uncheck "Enable this item"
+
 
 ## How to enable autocompletion via racer
 
